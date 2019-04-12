@@ -1,0 +1,205 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Arial', sans-serif;
+  font-size: 1.04vw;
+  color: #333333;
+}
+a {
+  text-decoration: none;
+}
+.section-one {
+  background-color: #ffffff;
+  background-image: url("../img/background-first4.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  color: #ffffff;
+  padding-top: 1.4vw;
+}
+.header {
+  width: 90vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 6.5vw;
+}
+.logo__name {
+  font-size: 1.872vw;
+  font-weight: bold;
+  display: block;
+  width: max-content;
+  margin-bottom: 0.4vw;
+}
+.logo__description {
+  font-size: 1.1752vw;
+}
+.nav {
+  list-style-type: none;
+}
+.nav__item {
+  display: inline-block;
+  margin-left: 4.5vw;
+}
+.nav__item:nth-of-type(1) {
+  margin-left: 0;
+}
+.nav__item_button-orange {
+  margin-left: 4vw;
+}
+.nav__item_button-white {
+  margin-left: 2vw;
+}
+.nav__link {
+  color: #ffffff;
+  transition: color 0.15s;
+}
+.nav__link:hover {
+  color: #d9d9d9;
+}
+.nav__button_orange {
+  display: block;
+  width: 14vw;
+  height: 2.1vw;
+  line-height: 2.1vw;
+  text-align: center;
+  background-color: #f69841;
+  border-radius: 1vw;
+  color: #ffffff;
+  font-size: 1.144vw;
+  box-shadow: 0.05vw 0.05vw #da5a58, 0.1vw 0.1vw #da5a58, 0.15vw 0.15vw #da5a58, 0.2vw 0.2vw #da5a58, 0.25vw 0.25vw #da5a58, 0.3vw 0.3vw #da5a58, 0.35vw 0.35vw #da5a58;
+  position: relative;
+  top: -0.2vw;
+}
+.nav__button_white {
+  display: block;
+  width: 7vw;
+  height: 2.3vw;
+  line-height: 2.07vw;
+  text-align: center;
+  color: #ffffff;
+  font-size: 1.144vw;
+  border: 0.15vw solid #ffffff;
+  border-radius: 1.8vw;
+}
+.section-one__content {
+  width: 85vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.section-join__header {
+  font-size: 3.12vw;
+  margin-bottom: 5vw;
+}
+.section-join__text {
+  font-size: 1.3vw;
+  width: 29vw;
+  line-height: 1.8vw;
+  margin-bottom: 5vw;
+}
+.section-join__button-orange {
+  display: block;
+  width: 17vw;
+  height: 3vw;
+  line-height: 3vw;
+  text-align: center;
+  background-color: #f69841;
+  border-radius: 2vw;
+  color: #ffffff;
+  font-size: 1.144vw;
+  box-shadow: 0.06vw 0.06vw #da5a58, 0.12vw 0.12vw #da5a58, 0.18vw 0.18vw #da5a58, 0.24vw 0.24vw #da5a58, 0.3vw 0.3vw #da5a58, 0.36vw 0.36vw #da5a58, 0.42vw 0.42vw #da5a58;
+  font-size: 1.56vw;
+  display: inline-block;
+}
+.section-join__button-white {
+  display: block;
+  width: 17vw;
+  height: 3vw;
+  line-height: 2.7vw;
+  text-align: center;
+  color: #ffffff;
+  font-size: 1.144vw;
+  border: 0.2vw solid #ffffff;
+  border-radius: 2vw;
+  font-size: 1.56vw;
+  display: inline-block;
+}
+.section-join__text-or {
+  font-weight: bold;
+  font-size: 1.144vw;
+  margin: 0 1.5vw 0 1.5vw;
+}
+.section-two {
+  padding-top: 2vw;
+}
+.section-two__header {
+  font-size: 3.12vw;
+  text-align: center;
+  margin-bottom: 2vw;
+}
+.section-two__content-list {
+  width: 80vw;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 20vw 20vw 20vw 20vw;
+  grid-template-rows: auto auto;
+  margin-bottom: 1.5vw;
+}
+.content-list__image {
+  border: 0.15vw solid #808080;
+  width: 14vw;
+  height: auto;
+  margin-bottom: 0.5vw;
+  border-radius: 1.5vw;
+  box-shadow: 0.05vw 0.05vw #808080, 0.1vw 0.1vw #808080, 0.15vw 0.15vw #808080, 0.2vw 0.2vw #808080, 0.25vw 0.25vw #808080, 0.3vw 0.3vw #808080, 0.35vw 0.35vw #808080;
+}
+.content-list__item {
+  padding: 1vw 2vw;
+  text-align: center;
+}
+.content-list__name {
+  font-size: 1.144vw;
+  font-weight: bold;
+  color: #333333;
+}
+.section-two__link-to-feedback {
+  text-align: right;
+  float: right;
+  margin-right: 5vw;
+  color: #333333;
+  font-size: 1.144vw;
+}
+.animation {
+  width: 30vw;
+  height: auto;
+}
+/*
+
+1vw = 15.36px
+
+название SS - 36pt 3.12vw
+описание - 22pt 1.9vw
+
+nav__link - 20pt 1.73vw
+nav__button - 22pt 1.9vw
+
+Присоединяйяс - 60pt 5.2vw
+text - 24pt 2.08vw
+content__button - 30pt 2.6vw
+
+
+12pt = 16px
+1pt = 1,333333px
+1pt = 0,08680556px
+
+*/
+/*# sourceMappingURL=styles.css.map */
