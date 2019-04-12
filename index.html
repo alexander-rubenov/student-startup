@@ -13,6 +13,30 @@
 </head>
 <body>
 
+
+
+
+
+<!--
+
+    за позицирование отвечают одни классы, а за стиль - другие
+    пример: <button class="button button_size_s">...</button>
+
+    в nav menu сслыки - это link
+    а кнопки - это button
+
+    применение:
+    <div class="select">
+        <button class="button select__button">
+            <span class="button__text">Блок</span>
+        </button>
+    </div>
+
+-->
+
+
+
+
 <main class="main">
     <section class="first-section">
         <header class="page-header">
@@ -25,7 +49,7 @@
                 <li class="main-menu__item menu__item menu__item-nav"><a href="#" class="main-menu__item_link menu__item_link">Новости</a></li>
                 <li class="main-menu__item menu__item menu__item-nav"><a href="#" class="main-menu__item_link menu__item_link">О нас</a></li>
                 <li class="main-menu__item menu__item menu__item-nav"><a href="#" class="main-menu__item_link menu__item_link">Контакты</a></li>
-                <li class="main-menu__item menu__item"><a href="#" class="button-with-shadow button main-menu__item_link menu__item_link">Зарегистрироваться</a></li>
+                <li class="main-menu__item menu__item menu__item-button"><a href="#" class="button-with-shadow button main-menu__item_link menu__item_link">Зарегистрироваться</a></li>
                 <li class="main-menu__item menu__item"><a href="#" class="button-without-shadow button main-menu__item_link menu__item_link">Войти</a></li>
             </ul>
         </header>
@@ -33,7 +57,7 @@
             <div class="section-join">
                 <h2>Присоединяйся!</h2>
                 <p>Стань частью молодых стартаперов и получи незабываемый опыт уже сейчас</p>
-                <a href="#" class="button-with-shadow button">Создать команду</a>
+                <div class="menu__item-button"><a href="#" class="button-with-shadow button">Создать команду</a></div>
                 <span>или</span>
                 <a href="#" class="button-without-shadow button">Найти команду</a>
             </div>

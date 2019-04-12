@@ -69,42 +69,20 @@ body {
     width: 8vw;
 }
 
-.menu__item-nav::after {
-    content: '';
-    display: block;
-    position: relative;
-    top: -2vw;
-    left: 0;
-    width: 0;
-    height: 2vw;
-    background: #f69841;
-    border-radius: 1vw;
-    transition: width .3s;
-    box-shadow:
-            0.05vw 0.05vw #da5a58,
-            0.1vw 0.1vw #da5a58,
-            0.15vw 0.15vw #da5a58,
-            0.2vw 0.2vw #da5a58,
-            0.25vw 0.25vw #da5a58,
-            0.3vw 0.3vw #da5a58,
-            0.35vw 0.35vw #da5a58;
-}
-
-.menu__item-nav:hover::after {
-    width: 100%;
-}
-
-.menu__item_link {
-    z-index: 1;
-    position: relative;
-}
-
 .menu__item:nth-child(1) {
     margin-left: 0;
 }
 
 .menu__item:nth-last-child(1) {
     margin-left: 1.5vw;
+}
+
+.menu__item-nav .menu__item_link {
+    transition: opacity 0.2s;
+}
+
+.menu__item-nav .menu__item_link:hover {
+    opacity: .7;
 }
 
 .menu__item_link {
@@ -116,7 +94,21 @@ body {
     display: block;
     text-align: center;
     vertical-align: center;
-    background-color: #f69841;
+    width: 13vw;
+    height: 2vw;
+    line-height: 2vw;
+}
+
+.menu__item-button::after {
+    content: '';
+    display: block;
+    position: relative;
+    top: -2vw;
+    left: 0;
+    height: 2vw;
+    background: #f69841;
+    transition: width .3s;
+    border-radius: 1vw;
     box-shadow:
             0.05vw 0.05vw #da5a58,
             0.1vw 0.1vw #da5a58,
@@ -127,11 +119,17 @@ body {
             0.35vw 0.35vw #da5a58;
 }
 
-.main-menu .button-with-shadow {
+.main-menu .menu__item-button::after {
     width: 13vw;
-    height: 2vw;
-    line-height: 2vw;
-    border-radius: 1vw;
+}
+
+.menu__item-button:hover::after {
+    width: 0;
+}
+
+.menu__item_link {
+    position: relative;
+    z-index: 10;
 }
 
 .button-without-shadow {
@@ -147,6 +145,11 @@ body {
     height: 2.3vw;
     line-height: 2vw;
     transition: all ease 0.2s;
+}
+
+.button-without-shadow:hover {
+    color: #333333;
+    background: #ffffff;
 }
 
 .first-section-content {
@@ -197,6 +200,12 @@ h2 {
     color: #ffffff;
     text-decoration: none;
     font-size: 1.4vw;
+    transition: all ease 0.2s;
+}
+
+.button-without-shadow:hover {
+    color: #333333;
+    background: #ffffff;
 }
 
 .section-join span {
@@ -210,3 +219,24 @@ h2 {
     width: 30vw;
 }
 
+.section-join .menu__item-button::after {
+    height: 3vw;
+    top: -3vw;
+    border-radius: 1.7vw;
+    transition: width .3s;
+}
+
+.section-join .menu__item-button {
+    width: 16vw;
+    display: inline-block;
+}
+
+.section-join .menu__item-button:hover::after {
+    transition: width .3s;
+    width: 0;
+}
+
+.section-join .button-with-shadow {
+    position: relative;
+    z-index: 10;
+}
