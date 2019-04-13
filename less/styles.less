@@ -18,8 +18,11 @@ a {
 
 @font-size: 1.04vw;
 @path-to-background-section-one: '../img/background-first4.png';
+@path-to-background-section-three: '../img/background-section-three.png';
 @color-button-orange: #f69841;
 @color-shadow-orange: #da5a58;
+@color-triangle: #7c3edd;
+@color-feedback-form: #fcf4ed;
 
 .position-horizontally-centered() {
   margin: 0 auto;
@@ -30,8 +33,7 @@ a {
   background-image: url("@{path}");
   background-repeat: no-repeat;
   background-position: center center;
-  background-attachment: fixed;
-  background-size: cover;
+  background-size: 100vw 100vh;
 }
 
 .set-font-logo-name() {
@@ -44,6 +46,10 @@ a {
 
 .set-font-h2() {
   font-size: @font-size * 3;
+}
+
+.set-font-h3() {
+  font-size: @font-size * 1.8;
 }
 
 .set-font-section-join-text() {
@@ -151,6 +157,28 @@ a {
   border-radius: @border-radius;
 }
 
+.triangle(@_; @size; @color) {
+  width: 0;
+  height: 0;
+  border-width: @size;
+  border-style: solid;
+  border-color: @color;
+}
+
+.triangle(right; @size; @color) {
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+  border-right-style: none;
+  border-left: @size * 1.5 solid @color;
+}
+
+.triangle(left; @size; @color) {
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+  border-left-style: none;
+  border-right: @size * 1.5 solid @color;
+}
+
 .nav__button_orange {
   .create-button-orange(14vw; 2.1vw; 1vw; 0.05vw);
   position: relative;
@@ -207,7 +235,6 @@ a {
   margin-bottom: 2vw;
 }
 
-
 .section-two__content-list {
   width: 80vw;
   .position-horizontally-centered;
@@ -243,7 +270,140 @@ a {
   margin-right: 5vw;
   color: #333333;
   font-size: @font-size * 1.1;
+  text-decoration: underline;
+  font-weight: bold;
 }
+
+.section-two__triangle-box-left {
+  .triangle(left; 1.5vw; @color-triangle);
+  position: absolute;
+  top: 23vw;
+  left: 3.5vw;
+}
+
+.section-two__triangle-box-right {
+  .triangle(right; 1.5vw; @color-triangle);
+  position: absolute;
+  top: 23vw;
+  right: 3.5vw;
+}
+
+.link-to-feedback__triangle-box-right {
+  .triangle(right; .6vw; @color-triangle);
+  display: inline-block;
+  position: relative;
+  top: .2vw;
+  left: .6vw;
+}
+
+.section-three {
+  .set-background-image-section(@path-to-background-section-three);
+  color: #ffffff;
+  padding-top: 2vw;
+}
+
+.section-three__header {
+  .set-font-h2;
+  text-align: center;
+  margin-bottom: 4vw;
+  color: #333333;
+}
+
+.section-three-content {
+  width: 80vw;
+  .position-horizontally-centered;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-three-content__header {
+  .set-font-h3;
+  margin-bottom: 2.5vw;
+}
+
+.section-three-content__text {
+  .set-font-main-text;
+  width: 35vw;
+}
+
+.section-three-content__item {
+  width: 40vw;
+}
+
+.section-three-content__item-two {
+  text-align: right;
+}
+
+
+
+.section-four {
+  color: #333333;
+  padding-top: 2vw;
+}
+
+.section-four__header {
+  .set-font-h2;
+  text-align: center;
+  margin-bottom: 4vw;
+  color: #333333;
+}
+
+.section-four-content {
+  width: 80vw;
+  .position-horizontally-centered;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-four-content__header {
+  .set-font-h3;
+  margin-bottom: 2.5vw;
+}
+
+.section-four-content__text {
+  .set-font-main-text;
+  width: 35vw;
+}
+
+.section-four-content__item {
+  width: 40vw;
+}
+
+.section-four-content__item-two {
+  text-align: right;
+}
+
+
+
+.section-five {
+  padding-top: 2vw;
+}
+
+.section-five__header {
+  .set-font-h2;
+  text-align: center;
+}
+
+.feedback-form {
+  width: 70vw;
+  .position-horizontally-centered;
+  background-color: @color-feedback-form;
+  .set-box-shadow(0.05vw; @color-shadow-orange);
+  border-radius: 1vw;
+  text-align: center;
+}
+
+
+
+
+
+
 
 
 
@@ -259,6 +419,30 @@ a {
   width: 30vw;
   height: auto;
 }
+
+.section-three__animation {
+  width: 25vw;
+  height: auto;
+}
+
+.section-four__animation {
+  width: 25vw;
+  height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
 

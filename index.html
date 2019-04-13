@@ -81,6 +81,9 @@
 
     <section class="main__section-two section-two">
         <h2 class="section-two__header">Выбери направление</h2>
+
+        <div class="triangle-box-left section-two__triangle-box-left"></div>
+
         <div class="section-two__content-list">
             <div class="content-list__item">
                 <a href="#"><img class="content-list__image" src="img/grid-icon.jpg" alt=""></a>
@@ -88,7 +91,7 @@
             </div>
             <div class="content-list__item">
                 <a href="#"><img class="content-list__image" src="img/grid-icon.jpg" alt=""></a>
-                <a href="#"><span class="content-list__name">Интернет вещей</span></a>
+                <a class="test" href="#"><span class="content-list__name">Интернет вещей</span></a>
             </div>
             <div class="content-list__item">
                 <a href="#"><img class="content-list__image" src="img/grid-icon.jpg" alt=""></a>
@@ -116,61 +119,63 @@
             </div>
         </div>
 
-        <a href="#" class="section-two__link-to-feedback">Не нашел интересующее направление? Напиши нам!</a>
+        <div class="triangle-box-right section-two__triangle-box-right"></div>
+
+        <a href="#" class="section-two__link-to-feedback">Не нашел интересующее направление? Напиши нам!<div class="link-to-feedback__triangle-box-right"></div></a>
     </section>
 
     <section class="main__section-three section-three">
-        <h2>Найди единомышленников</h2>
-        <div class="">
-            <div class="">
-                <h3>Создай свою команду</h3>
-                <p>Создав команду, ты сможешь реализовывать стартап мечты и найти новых знакомых</p>
+        <h2 class="section-three__header">Найди единомышленников</h2>
+        <div class="section-three-content">
+            <div class="section-three-content__item section-three-content__item-one">
+                <h3 class="section-three-content__header">Создай свою команду</h3>
+                <p class="section-three-content__text">Создав команду, ты сможешь реализовывать стартап мечты и найти новых знакомых</p>
             </div>
-            <div class="">
-                <!-- animation -->
+            <div class="section-three-content__item section-three-content__item-two">
+                <img class="animation section-three__animation" src="img/section-three-animation-top.png" alt="Изображение не поддерживается вашим браузером">
             </div>
-            <div class="">
-                <!-- animation -->
+            <div class="section-three-content__item section-three-content__item-three">
+                <img class="animation section-three__animation" src="img/section-three-animation-bottom.png" alt="Изображение не поддерживается вашим браузером">
             </div>
-            <div class="">
-                <h3>Или присоединись к уже существующей</h3>
-                <p>Стань частью одной из команд, поделись опытом и сделай проект уникальным в своем роде</p>
+            <div class="section-three-content__item section-three-content__item-four">
+                <h3 class="section-three-content__header">Или присоединись к уже существующей</h3>
+                <p class="section-three-content__text">Стань частью одной из команд, поделись опытом и сделай проект уникальным в своем роде</p>
             </div>
         </div>
     </section>
 
     <section class="main__section-four section-four">
-        <h2>Заяви о себе</h2>
-        <div class="">
-            <div class="">
-                <h3>Участвуй в конкурсах и стань первым</h3>
-                <p>Мы сообщим о самых крутых соревнованиях и мероприяиях в мире стартапов</p>
+        <h2 class="section-four__header">Заяви о себе</h2>
+        <div class="section-four-content">
+            <div class="section-four-content__item section-four-content__item-one">
+                <h3 class="section-four-content__header">Участвуй в конкурсах и стань первым</h3>
+                <p class="section-four-content__text">Мы сообщим о самых крутых соревнованиях и мероприяиях в мире стартапов</p>
             </div>
-            <div class="">
-                <!-- animation -->
+            <div class="section-four-content__item section-four-content__item-two">
+                <img class="animation section-four__animation" src="img/section-three-animation-top.png" alt="Изображение не поддерживается вашим браузером">
             </div>
-            <div class="">
-                <!-- animation -->
+            <div class="section-four-content__item section-four-content__item-three">
+                <img class="animation section-four__animation" src="img/section-three-animation-top.png" alt="Изображение не поддерживается вашим браузером">
             </div>
-            <div class="">
-                <h3>Посещай мероприятия и ищи спонсоров</h3>
-                <p>Узнавай о масштабных событиях первым, приходи и получай выгодные предложения</p>
+            <div class="section-four-content__item section-four-content__item-four">
+                <h3 class="section-four-content__header">Посещай мероприятия и ищи спонсоров</h3>
+                <p class="section-four-content__text">Узнавай о масштабных событиях первым, приходи и получай выгодные предложения</p>
             </div>
         </div>
     </section>
 
     <section class="main__section-five section-five">
-        <h2>Помоги нам улучшить сервис</h2>
-        <div class="">
-            <form action="" method="" class="">
+        <h2 class="section-five__header">Помоги нам улучшить сервис</h2>
+        <div class="section-five__feedback-form feedback-form">
+            <form action="" method="">
                 <label for="email">Email*</label>
-                <input type="email" id="email" name="email">
+                <input type="email" id="email" name="email"><br>
                 <label for="name">Имя</label>
-                <input type="text" id="name" name="name">
+                <input type="text" id="name" name="name"><br>
                 <label for="suggestion">Предложение*</label>
-                <textarea name="suggestion" id="suggestion" cols="30" rows="5"></textarea>
+                <textarea name="suggestion" id="suggestion" cols="30" rows="5"></textarea><br>
                 <label for="consent">Согласие на обработку персональных данных</label>
-                <input type="checkbox" id="consent" name="consent">
+                <input type="checkbox" id="consent" name="consent"><br>
                 <input type="submit" value="Улучшить">
             </form>
         </div>
