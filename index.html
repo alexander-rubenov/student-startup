@@ -166,47 +166,56 @@
 
     <section class="main__section-five section-five">
         <h2 class="section-five__header">Помоги нам улучшить сервис</h2>
-        <div class="section-five__feedback-form feedback-form">
-            <form action="" method="">
-                <label for="email">Email*</label>
-                <input type="email" id="email" name="email"><br>
-                <label for="name">Имя</label>
-                <input type="text" id="name" name="name"><br>
-                <label for="suggestion">Предложение*</label>
-                <textarea name="suggestion" id="suggestion" cols="30" rows="5"></textarea><br>
-                <label for="consent">Согласие на обработку персональных данных</label>
-                <input type="checkbox" id="consent" name="consent"><br>
-                <input type="submit" value="Улучшить">
+        <div class="section-five__feedback-box-form feedback-box-form">
+            <form class="feedback-form" action="" method="">
+                <div class="feedback-form__item">
+                    <label class="feedback-form__item-name" for="email">Email*</label>
+                    <input class="feedback-form__item-input" type="email" id="email" name="email">
+                </div>
+                <div class="feedback-form__item">
+                    <label class="feedback-form__item-name" for="name">Имя</label>
+                    <input class="feedback-form__item-input" type="text" id="name" name="name">
+                </div>
+                <div class="feedback-form__item">
+                    <label class="feedback-form__item-name" for="suggestion">Предложение*</label>
+                    <textarea class="feedback-form__item-input feedback-form__item-input-textarea" name="suggestion" id="suggestion"></textarea>
+                </div>
+                <div class="feedback-form__item">
+                    <label class="feedback-form__item-checkbox-name" for="consent">Согласие на обработку персональных данных</label>
+                    <input type="checkbox" id="consent" name="consent">
+                </div>
+                <input class="feedback-form__button_orange" type="submit" value="Улучшить">
             </form>
         </div>
 
-        <footer class="">
-            <div class="">
-                <div class="">
-                    <span class="">STUDENT’S STARTUP</span>
-                    <span class="">Платформа студенческих стартапов</span>
+        <footer class="section-five__footer footer">
+            <div class="footer__footer-section-one">
+                <div class="footer__logo logo">
+                    <span class="logo__name">STUDENT’S STARTUP</span>
+                    <span class="logo__description">Платформа студенческих стартапов</span>
                 </div>
-                <div class="">
-                    <span class="">+7(953) 723-18-90</span>
-                    <span class="">г. Москва, ул. Б. Семеновская, д1, к. Н</span>
+                <div class="footer-section-one__contacts">
+                    <span class="contacts__item">+7(953) 723-18-90</span>
+                    <span class="contacts__item">г. Москва, ул. Б. Семеновская, д1, к. Н</span>
                 </div>
             </div>
-            <div class="">
-                <ul class="">
-                    <li class=""><a href="#">Главная</a></li>
-                    <li class=""><a href="#">Личный кабинет</a></li>
-                    <li class=""><a href="#">Команды</a></li>
-                    <li class=""><a href="#">О нас</a></li>
-                    <li class=""><a href="#">Sign up</a></li>
-                    <li class=""><a href="#">Sign in</a></li>
+
+            <div class="footer__footer-section-two">
+                <ul class="footer-nav">
+                    <li class="footer-nav__item"><a class="footer-nav__link" href="#">Главная</a></li>
+                    <li class="footer-nav__item"><a class="footer-nav__link" href="#">Личный кабинет</a></li>
+                    <li class="footer-nav__item"><a class="footer-nav__link" href="#">Команды</a></li>
+                    <li class="footer-nav__item"><a class="footer-nav__link" href="#">О нас</a></li>
+                    <li class="footer-nav__item"><a class="footer-nav__link" href="#">Sign up</a></li>
+                    <li class="footer-nav__item"><a class="footer-nav__link" href="#">Sign in</a></li>
                 </ul>
-                <ul class="">
-                    <li><a href="#"><img src="" alt="Vk. Изображение не поддерживается вашим браузером"></a></li>
-                    <li><a href="#"><img src="" alt="Fb. Изображение не поддерживается вашим браузером"></a></li>
-                    <li><a href="#"><img src="" alt="Inst. Изображение не поддерживается вашим браузером"></a></li>
+                <ul class="footer-social-network">
+                    <li><a href="#"><img class="footer-social-network__item" src="img/vk.png" alt="Vk. Изображение не поддерживается вашим браузером"></a></li>
+                    <li><a href="#"><img class="footer-social-network__item" src="img/fb.png" alt="Fb. Изображение не поддерживается вашим браузером"></a></li>
+                    <li><a href="#"><img class="footer-social-network__item" src="img/inst.png" alt="Inst. Изображение не поддерживается вашим браузером"></a></li>
                 </ul>
             </div>
-            <div class="">
+            <div class="footer__footer-section-three">
                 <h3>Будь в курсе интересных событий:</h3>
                 <form action="" method="" class="">
                     <label for="email-distribution">Email</label>

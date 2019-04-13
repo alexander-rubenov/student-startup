@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e475acb5-dab9-4936-8a23-ff0b91f43d3e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/less/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/less/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/less/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/less/styles.css.map" afterDir="false" />
@@ -23,8 +24,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="468">
-                  <caret line="178" column="54" lean-forward="true" selection-start-line="178" selection-start-column="54" selection-end-line="178" selection-end-column="54" />
+                <state relative-caret-position="246">
+                  <caret line="203" column="39" lean-forward="true" selection-start-line="203" selection-start-column="39" selection-end-line="203" selection-end-column="39" />
                 </state>
               </provider>
             </entry>
@@ -36,8 +37,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/less/styles.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="203">
-                  <caret line="398" column="20" selection-start-line="398" selection-start-column="20" selection-end-line="398" selection-end-column="20" />
+                <state relative-caret-position="284">
+                  <caret line="486" column="13" selection-start-line="486" selection-start-column="13" selection-end-line="486" selection-end-column="13" />
                 </state>
               </provider>
             </entry>
@@ -45,7 +46,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/less/styles.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-5209">
+                <state relative-caret-position="384">
                   <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
                 </state>
               </provider>
@@ -83,12 +84,12 @@
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/js/jquery.onepage-scroll.js" />
         <option value="$PROJECT_DIR$/js/app.js" />
-        <option value="$PROJECT_DIR$/less/styles.less" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/less/styles.less" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="240" />
     <option name="y" value="125" />
     <option name="width" value="1440" />
@@ -174,15 +175,16 @@
       <workItem from="1555070857516" duration="2057000" />
       <workItem from="1555072935886" duration="4119000" />
       <workItem from="1555085580643" duration="17813000" />
-      <workItem from="1555154639590" duration="8002000" />
+      <workItem from="1555154639590" duration="8338000" />
+      <workItem from="1555166026668" duration="4336000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59286000" />
+    <option name="totallyTimeSpent" value="63958000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1536" height="864" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.24983476" />
@@ -219,8 +221,8 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/less/styles.css.map">
-      <provider editor-type-id="sourcemapFileViewerProvider" />
       <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="sourcemapFileViewerProvider" />
     </entry>
     <entry file="file://$PROJECT_DIR$/css/media.css">
       <provider selected="true" editor-type-id="text-editor" />
@@ -255,22 +257,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/less/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5209">
+        <state relative-caret-position="384">
           <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/less/styles.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="398" column="20" selection-start-line="398" selection-start-column="20" selection-end-line="398" selection-end-column="20" />
+        <state relative-caret-position="284">
+          <caret line="486" column="13" selection-start-line="486" selection-start-column="13" selection-end-line="486" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="178" column="54" lean-forward="true" selection-start-line="178" selection-start-column="54" selection-end-line="178" selection-end-column="54" />
+        <state relative-caret-position="246">
+          <caret line="203" column="39" lean-forward="true" selection-start-line="203" selection-start-column="39" selection-end-line="203" selection-end-column="39" />
         </state>
       </provider>
     </entry>
