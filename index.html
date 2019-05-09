@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>STUDENT’S STARTUP</title>
+    <title>TeamUnite</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
     <link rel="stylesheet" href="css/onepage-scroll.css">
@@ -13,45 +13,17 @@
 
     <link rel="icon" href="img/favicon.ico" type="image/x-icon"/>
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon"/>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-
-<!--
-
-    за позицирование отвечают одни классы, а за стиль - другие
-    пример: <button class="button button_size_s">...</button>
-
-    в nav menu сслыки - это link
-    а кнопки - это button
-
-    применение:
-    <div class="select">
-        <button class="button select__button">
-            <span class="button__text">Блок</span>
-        </button>
-    </div>
-
-    пример правильного кода
-    <ul class="menu">
-        <li class="menu__item">
-            <a class="menu__link" href="https://">...</a>
-        </li>
-    </ul>
-
-    <header class="header">
-        <div class="logo header__logo">...</div>
-        <div class="search header__search">...</div>
-        <div class="user header__user">...</div>
-    </header>
-
--->
 
 <main class="main">
     <section class="main__section-one section-one">
         <header class="section-one__header header">
             <div class="header__logo logo">
-                <span class="logo__name">STUDENT’S STARTUP</span>
-                <span class="logo__description">Платформа студенческих стартапов</span>
+                <span class="logo__name">TeamUnite</span>
+                <span class="logo__description">Платформа, объединяющая студентов в команды</span>
             </div>
             <ul class="header__nav nav">
                 <li class="nav__item"><a href="#" class="nav__link">Главная</a></li>
@@ -66,17 +38,23 @@
         <div class="section-one__content">
             <div class="section-join">
                 <h2 class="section-join__header">Присоединяйся!</h2>
-                <p class="section-join__text">Стань частью молодых стартаперов и получи незабываемый опыт уже сейчас</p>
+                <p class="section-join__text">Стань частью молодых специалистов и получи незабываемый опыт уже сейчас</p>
                 <div class="section-join__choice-action">
                     <a href="#" class="section-join__button-orange">Создать команду</a>
                     <span class="section-join__text-or">или</span>
                     <a href="#" class="section-join__button-white">Найти команду</a>
                 </div>
             </div>
-            <div class="">
-                <img class="animation" src="img/animation.png" alt="Изображение не поддерживается вашим браузером">
+            <div class="wrapper-illustration-section-one">
+                <img class="illustration illustration-section-one" src="img/illustration-1.png" alt="Изображение не поддерживается вашим браузером">
             </div>
         </div>
+
+        <div class="mobile-buttons-section-one">
+            <div class="mobile-buttons-section-one__item"><a href="#" class="mobile-buttons-section-one__button-orange">Зарегистрироваться</a></div>
+            <div class="mobile-buttons-section-one__item"><a href="#" class="mobile-buttons-section-one__button-white">Войти</a></div>
+        </div>
+
     </section>
 
     <section class="main__section-two section-two">
@@ -132,10 +110,10 @@
                 <p class="section-three-content__text">Создав команду, ты сможешь реализовывать стартап мечты и найти новых знакомых</p>
             </div>
             <div class="section-three-content__item section-three-content__item-two">
-                <img class="animation section-three__animation" src="img/section-three-animation-top.png" alt="Изображение не поддерживается вашим браузером">
+                <img class="illustration" src="img/illustration-2.png" alt="Изображение не поддерживается вашим браузером">
             </div>
             <div class="section-three-content__item section-three-content__item-three">
-                <img class="animation section-three__animation" src="img/section-three-animation-bottom.png" alt="Изображение не поддерживается вашим браузером">
+                <img class="illustration" src="img/illustration-3.png" alt="Изображение не поддерживается вашим браузером">
             </div>
             <div class="section-three-content__item section-three-content__item-four">
                 <h3 class="section-three-content__header">Или присоединись к уже существующей</h3>
@@ -152,10 +130,10 @@
                 <p class="section-four-content__text">Мы сообщим о самых крутых соревнованиях и мероприяиях в мире стартапов</p>
             </div>
             <div class="section-four-content__item section-four-content__item-two">
-                <img class="animation section-four__animation" src="img/section-three-animation-top.png" alt="Изображение не поддерживается вашим браузером">
+                <img class="illustration" src="img/illustration-4.png" alt="Изображение не поддерживается вашим браузером">
             </div>
             <div class="section-four-content__item section-four-content__item-three">
-                <img class="animation section-four__animation" src="img/section-three-animation-top.png" alt="Изображение не поддерживается вашим браузером">
+                <img class="illustration" src="img/illustration-5.png" alt="Изображение не поддерживается вашим браузером">
             </div>
             <div class="section-four-content__item section-four-content__item-four">
                 <h3 class="section-four-content__header">Посещай мероприятия и ищи спонсоров</h3>
@@ -191,11 +169,11 @@
         <footer class="section-five__footer footer">
             <div class="footer__footer-section-one">
                 <div class="footer__logo logo">
-                    <span class="logo__name">STUDENT’S STARTUP</span>
+                    <span class="logo__name">TeamUnite</span>
                     <span class="logo__description">Платформа студенческих стартапов</span>
                 </div>
                 <div class="footer-section-one__contacts">
-                    <span class="contacts__item">+7(953) 723-18-90</span>
+                    <span class="contacts__item">+7 (953) 723-18-90</span>
                     <span class="contacts__item">г. Москва, ул. Б. Семеновская, д1, к. Н</span>
                 </div>
             </div>
@@ -217,10 +195,10 @@
             </div>
             <div class="footer__footer-section-three">
                 <h3>Будь в курсе интересных событий:</h3>
-                <form action="" method="" class="">
-                    <label for="email-distribution">Email</label>
-                    <input type="email" id="email-distribution" name="email-distribution">
-                    <input type="submit" value="Улучшить" class="button-with-shadow button">
+                <form action="" method="" class="form-distribution">
+                    <label for="email-distribution">E-mail:</label>
+                    <input class="field-email-distribution" type="email" id="email-distribution" name="email-distribution">
+                    <input type="submit" value="Подписаться" class="button-with-shadow button button-to-email-distribution">
                 </form>
             </div>
         </footer>
