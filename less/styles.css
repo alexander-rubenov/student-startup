@@ -42,7 +42,7 @@ a {
 }
 @media (max-width: 480px) {
   .header {
-    margin-top: 10vh;
+    margin-top: 6.5vh;
     margin-bottom: 5vh;
     height: 15vh;
   }
@@ -67,6 +67,14 @@ a {
   .logo__description {
     display: inline-block;
     font-size: 2.5vh;
+  }
+}
+.br-logo__description {
+  display: none;
+}
+@media (max-width: 480px) {
+  .br-logo__description {
+    display: block;
   }
 }
 .nav {
@@ -246,10 +254,43 @@ a {
 .section-two {
   padding-top: 2.5vw;
 }
+@media (max-width: 480px) {
+  .section-two {
+    padding-top: 3vh;
+  }
+}
 .section-two__header {
   font-size: 2.496vw;
   text-align: center;
   margin-bottom: 2.5vw;
+}
+@media (max-width: 480px) {
+  .section-two__header {
+    display: none;
+  }
+}
+.mobile-wrapper-section-two__header {
+  display: none;
+}
+@media (max-width: 480px) {
+  .mobile-wrapper-section-two__header {
+    display: block;
+    width: 100vw;
+    background-color: #7c3edd;
+    padding: 1vh 0 1vh 2vh;
+    margin-bottom: 5vh;
+  }
+}
+.mobile-section-two__header {
+  display: none;
+}
+@media (max-width: 480px) {
+  .mobile-section-two__header {
+    display: block;
+    width: 35vh;
+    font-size: 4vh;
+    color: #ffffff;
+  }
 }
 .section-two__content-list {
   width: 80vw;
@@ -259,6 +300,16 @@ a {
   grid-template-rows: auto auto;
   margin-bottom: 1.5vw;
 }
+@media (max-width: 480px) {
+  .section-two__content-list {
+    width: 85vw;
+    height: 50vh;
+    grid-template-columns: 85vw;
+    grid-template-rows: 30vh 30vh;
+    overflow: hidden;
+    margin-bottom: 1.5vh;
+  }
+}
 .content-list__image {
   border: 0.15vw solid #808080;
   width: 12vw;
@@ -266,6 +317,16 @@ a {
   margin-bottom: 0.5vw;
   border-radius: 1.5vw;
   box-shadow: 0.05vw 0.05vw #808080, 0.1vw 0.1vw #808080, 0.15vw 0.15vw #808080, 0.2vw 0.2vw #808080, 0.25vw 0.25vw #808080, 0.3vw 0.3vw #808080, 0.35vw 0.35vw #808080;
+}
+@media (max-width: 480px) {
+  .content-list__image {
+    width: 78vw;
+    height: 15vh;
+    margin-bottom: 1vh;
+    border-radius: 2vh;
+    border: 0.35vh solid #808080;
+    box-shadow: 0.1vh 0.1vh #808080, 0.2vh 0.2vh #808080, 0.3vh 0.3vh #808080, 0.4vh 0.4vh #808080, 0.5vh 0.5vh #808080, 0.6vh 0.6vh #808080, 0.7vh 0.7vh #808080;
+  }
 }
 .content-list__item {
   padding: 1vw 3vw;
@@ -276,14 +337,59 @@ a {
   font-weight: bold;
   color: #333333;
 }
+@media (max-width: 480px) {
+  .content-list__name {
+    display: block;
+    font-size: 2vh;
+  }
+}
 .section-two__link-to-feedback {
-  text-align: right;
   float: right;
   margin-right: 5vw;
   color: #333333;
   font-size: 1.144vw;
   text-decoration: underline;
   font-weight: bold;
+}
+@media (max-width: 480px) {
+  .section-two__link-to-feedback {
+    float: left;
+    margin-right: 0;
+    font-size: 3.2vw;
+    margin-left: 6vw;
+  }
+}
+.mobile-arrow-left {
+  display: none;
+}
+@media (max-width: 480px) {
+  .mobile-arrow-left {
+    display: block;
+    position: absolute;
+    top: 48vh;
+    left: 15vw;
+    font-size: 4.5vw;
+    font-weight: bold;
+  }
+}
+.mobile-arrow-left::before {
+  content: '';
+  display: inline-block;
+  width: 20vw;
+  height: 1.5vh;
+  background: #ffffff url("../img/arrow-left.png") center center no-repeat;
+  background-size: contain;
+  margin-right: 0.5vw;
+}
+.mobile-arrow-left::after {
+  content: '';
+  display: inline-block;
+  width: 13vw;
+  height: 1.5vh;
+  background: #ffffff url("../img/arrow-left-continue.png") center center no-repeat;
+  background-size: contain;
+  margin-right: 0.5vw;
+  margin-left: 3vw;
 }
 .section-two__triangle-box-left {
   width: 0;
@@ -299,6 +405,11 @@ a {
   top: 23vw;
   left: 3.5vw;
 }
+@media (max-width: 480px) {
+  .section-two__triangle-box-left {
+    display: none;
+  }
+}
 .section-two__triangle-box-right {
   width: 0;
   height: 0;
@@ -312,6 +423,11 @@ a {
   position: absolute;
   top: 23vw;
   right: 3.5vw;
+}
+@media (max-width: 480px) {
+  .section-two__triangle-box-right {
+    display: none;
+  }
 }
 .link-to-feedback__triangle-box-right {
   width: 0;
@@ -328,6 +444,21 @@ a {
   top: 0.2vw;
   left: 0.6vw;
 }
+@media (max-width: 480px) {
+  .link-to-feedback__triangle-box-right {
+    width: 0;
+    height: 0;
+    border-width: 1.1vh;
+    border-style: solid;
+    border-color: #7c3edd;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    border-right-style: none;
+    border-left: 1.65vh solid #7c3edd;
+    top: 0.5vh;
+    left: 0.8vh;
+  }
+}
 .section-three {
   background-color: #ffffff;
   background-image: url("../img/background-section-three.png");
@@ -337,11 +468,22 @@ a {
   color: #ffffff;
   padding-top: 5vh;
 }
+@media (max-width: 480px) {
+  .section-three {
+    background: #ffffff;
+    color: #333333;
+  }
+}
 .section-three__header {
   font-size: 2.496vw;
   text-align: center;
   margin-bottom: 12vh;
   color: #333333;
+}
+@media (max-width: 480px) {
+  .section-three__header {
+    display: none;
+  }
 }
 .section-three-content {
   width: 80vw;
@@ -351,9 +493,67 @@ a {
   flex-direction: column;
   flex-wrap: wrap;
 }
+@media (max-width: 480px) {
+  .section-three-content {
+    display: none;
+  }
+}
+.mobile-section-three-content {
+  display: none;
+}
+@media (max-width: 480px) {
+  .mobile-section-three-content {
+    display: block;
+  }
+}
 .section-three-content__header {
   font-size: 1.872vw;
   margin-bottom: 3vh;
+}
+.mobile-section-three-content__illustration {
+  width: 70vw;
+  height: 35vh;
+}
+.mobile-section-three-content__wrapper-illustration {
+  margin-bottom: 5vh;
+  text-align: center;
+}
+.mobile-section-three-content__text-wrapper {
+  font-size: 2.5vh;
+  margin-bottom: 5vh;
+}
+.mobile-section-three-content__text-item {
+  display: block;
+  width: 85vw;
+  margin: 0 auto;
+}
+.mobile-section-three-content__text-item:nth-of-type(1) {
+  margin-bottom: 2vh;
+}
+.mobile-section-three-content__button-orange {
+  width: 80vw;
+  height: 5vh;
+  line-height: 5vh;
+  text-align: center;
+  background-color: #f69841;
+  border-radius: 3vw;
+  color: #ffffff;
+  font-size: 1.144vw;
+  box-shadow: 0.25vw 0.25vw #da5a58, 0.5vw 0.5vw #da5a58, 0.75vw 0.75vw #da5a58, 1vw 1vw #da5a58, 1.25vw 1.25vw #da5a58, 1.5vw 1.5vw #da5a58, 1.75vw 1.75vw #da5a58;
+  display: block;
+  font-size: 2vh;
+  margin: 0 auto;
+}
+.mobile-section-three-content__button-orange:nth-of-type(1) {
+  margin-bottom: 2vh;
+}
+.mobile-section-three-content__span-or {
+  display: block;
+  margin-bottom: 2vh;
+  font-size: 2vh;
+}
+.mobile-section-three-content__buttons-wrapper {
+  text-align: center;
 }
 .section-three-content__text {
   font-size: 1.56vw;
