@@ -23,11 +23,11 @@
         <header class="section-one__header header">
             <div class="header__logo logo">
                 <span class="logo__name">TeamUnite</span>
-                <span class="logo__description">Платформа, объединяющая<br class="br-logo__description">студентов в команды</span>
+                <span class="logo__description">Платформа, объединяющая <br class="br-logo__description">студентов в команды</span>
             </div>
             <ul class="header__nav nav">
                 <li class="nav__item"><a href="#" class="nav__link">Главная</a></li>
-                <li class="nav__item"><a href="#" class="nav__link">Новости</a></li>
+                <li class="nav__item"><a href="news/index.html" class="nav__link">Новости</a></li>
                 <li class="nav__item"><a href="#" class="nav__link">О нас</a></li>
                 <li class="nav__item"><a href="#" class="nav__link">Контакты</a></li>
                 <li class="nav__item nav__item_button-orange"><a href="#" class="nav__button_orange">Зарегистрироваться</a></li>
@@ -151,6 +151,10 @@
 
     <section class="main__section-four section-four">
         <h2 class="section-four__header">Заяви о себе</h2>
+        <div class="mobile-wrapper-section-two__header">
+            <h2 class="mobile-section-two__header">Заяви миру о себе</h2>
+        </div>
+
         <div class="section-four-content">
             <div class="section-four-content__item section-four-content__item-one">
                 <h3 class="section-four-content__header">Участвуй в конкурсах и стань первым</h3>
@@ -171,6 +175,10 @@
 
     <section class="main__section-five section-five">
         <h2 class="section-five__header">Помоги нам улучшить сервис</h2>
+        <!-- <div class="mobile-wrapper-section-two__header">
+            <h2 class="mobile-section-two__header">TeamUnite</h2>
+        </div> -->
+
         <div class="section-five__feedback-box-form feedback-box-form">
             <form class="feedback-form" action="" method="">
                 <div class="feedback-form__item">
@@ -197,7 +205,7 @@
             <div class="footer__footer-section-one">
                 <div class="footer__logo logo">
                     <span class="logo__name">TeamUnite</span>
-                    <span class="logo__description">Платформа студенческих стартапов</span>
+                    <span class="logo__description">Платформа, объединяющая студентов в команды</span>
                 </div>
                 <div class="footer-section-one__contacts">
                     <span class="contacts__item">+7 (953) 723-18-90</span>
@@ -208,26 +216,31 @@
             <div class="footer__footer-section-two">
                 <ul class="footer-nav">
                     <li class="footer-nav__item"><a class="footer-nav__link" href="#">Главная</a></li>
-                    <li class="footer-nav__item"><a class="footer-nav__link" href="#">Личный кабинет</a></li>
+                    <li class="footer-nav__item mobile-lk-display-none"><a class="footer-nav__link" href="#">Личный кабинет</a></li>
                     <li class="footer-nav__item"><a class="footer-nav__link" href="#">Команды</a></li>
                     <li class="footer-nav__item"><a class="footer-nav__link" href="#">О нас</a></li>
                     <li class="footer-nav__item"><a class="footer-nav__link" href="#">Sign up</a></li>
                     <li class="footer-nav__item"><a class="footer-nav__link" href="#">Sign in</a></li>
                 </ul>
                 <ul class="footer-social-network">
-                    <li><a href="#"><img class="footer-social-network__item" src="img/vk.png" alt="Vk. Изображение не поддерживается вашим браузером"></a></li>
-                    <li><a href="#"><img class="footer-social-network__item" src="img/fb.png" alt="Fb. Изображение не поддерживается вашим браузером"></a></li>
-                    <li><a href="#"><img class="footer-social-network__item" src="img/inst.png" alt="Inst. Изображение не поддерживается вашим браузером"></a></li>
+                    <li><a href="https://vk.com"><img class="footer-social-network__item" src="img/vk.png" alt="Vk. Изображение не поддерживается вашим браузером"></a></li>
+                    <li><a href="https://www.facebook.com/"><img class="footer-social-network__item" src="img/fb.png" alt="Fb. Изображение не поддерживается вашим браузером"></a></li>
+                    <li><a href="https://www.instagram.com/"><img class="footer-social-network__item" src="img/inst.png" alt="Inst. Изображение не поддерживается вашим браузером"></a></li>
                 </ul>
             </div>
             <div class="footer__footer-section-three">
                 <h3>Будь в курсе интересных событий:</h3>
                 <form action="" method="" class="form-distribution">
-                    <label for="email-distribution">E-mail:</label>
+                    <label for="email-distribution" class="email-text">E-mail:</label>
                     <input class="field-email-distribution" type="email" id="email-distribution" name="email-distribution">
                     <input type="submit" value="Подписаться" class="button-with-shadow button button-to-email-distribution">
                 </form>
             </div>
+            <ul class="mobile-footer-social-network">
+                <li><a href="https://vk.com"><img class="footer-social-network__item" src="img/vk.png" alt="Vk. Изображение не поддерживается вашим браузером"></a></li>
+                <li><a href="https://www.facebook.com/"><img class="footer-social-network__item" src="img/fb.png" alt="Fb. Изображение не поддерживается вашим браузером"></a></li>
+                <li><a href="https://www.instagram.com/"><img class="footer-social-network__item" src="img/inst.png" alt="Inst. Изображение не поддерживается вашим браузером"></a></li>
+            </ul>
         </footer>
     </section>
 </main>

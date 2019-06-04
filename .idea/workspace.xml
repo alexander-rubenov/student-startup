@@ -27,8 +27,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="423">
-                  <caret line="144" column="62" lean-forward="true" selection-start-line="144" selection-start-column="62" selection-end-line="144" selection-end-column="62" />
+                <state relative-caret-position="327">
+                  <caret line="185" column="59" selection-start-line="185" selection-start-column="59" selection-end-line="185" selection-end-column="59" />
                 </state>
               </provider>
             </entry>
@@ -36,12 +36,12 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/less/styles.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="235">
-                  <caret line="594" column="34" selection-start-line="594" selection-start-column="34" selection-end-line="594" selection-end-column="34" />
+                <state relative-caret-position="133">
+                  <caret line="760" column="14" selection-start-line="760" selection-start-column="14" selection-end-line="760" selection-end-column="14" />
                 </state>
               </provider>
             </entry>
@@ -83,8 +83,13 @@
       <find>section-two__link-to-feedback</find>
       <find>section-two__header</find>
       <find>mobile-section-three-content__wrapper-illustration</find>
-      <find>mobile-wrapper-section-two__header</find>
       <find>create</find>
+      <find>mobile-section-three-content__text-wrapper</find>
+      <find>mobile-wrapper-section-two__header</find>
+      <find>section-four-content</find>
+      <find>section-four</find>
+      <find>section-three</find>
+      <find>section-five__header</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -121,42 +126,13 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="site" type="b2602c69:ProjectViewProjectNode" />
-              <item name="site" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="site" type="b2602c69:ProjectViewProjectNode" />
-              <item name="site" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="site" type="b2602c69:ProjectViewProjectNode" />
-              <item name="site" type="462c0819:PsiDirectoryNode" />
-              <item name="less" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="site" type="b2602c69:ProjectViewProjectNode" />
-              <item name="site" type="462c0819:PsiDirectoryNode" />
-              <item name="less" type="462c0819:PsiDirectoryNode" />
-              <item name="styles.less" type="620a8d5e:NestingTreeNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../js-test" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -225,7 +201,8 @@
       <workItem from="1557575677147" duration="7755000" />
       <workItem from="1557650610465" duration="3335000" />
       <workItem from="1557789012126" duration="462000" />
-      <workItem from="1557814326627" duration="2103000" />
+      <workItem from="1557814326627" duration="4600000" />
+      <workItem from="1557949723360" duration="300000" />
     </task>
     <task id="LOCAL-00001" summary="version-4">
       <created>1557416810281</created>
@@ -241,15 +218,35 @@
       <option name="project" value="LOCAL" />
       <updated>1557440894536</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="version-5.1">
+      <created>1557816448382</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1557816448383</updated>
+    </task>
+    <task id="LOCAL-00004" summary="version-5.1">
+      <created>1557816526991</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1557816526991</updated>
+    </task>
+    <task id="LOCAL-00005" summary="version-5.1">
+      <created>1557816573962</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1557816573962</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106512000" />
+    <option name="totallyTimeSpent" value="109309000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1536" height="864" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.27114093" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -265,7 +262,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32947233" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32941177" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32818532" />
       <window_info anchor="bottom" id="Console" order="11" />
@@ -284,7 +281,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="version-4" />
     <MESSAGE value="version-5" />
-    <option name="LAST_COMMIT_MESSAGE" value="version-5" />
+    <MESSAGE value="version-5.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="version-5.1" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/js/jquery.js">
@@ -349,6 +347,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/less/styles.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="760" column="14" selection-start-line="760" selection-start-column="14" selection-end-line="760" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/less/styles.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -359,17 +364,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/less/styles.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="594" column="34" selection-start-line="594" selection-start-column="34" selection-end-line="594" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="144" column="62" lean-forward="true" selection-start-line="144" selection-start-column="62" selection-end-line="144" selection-end-column="62" />
+        <state relative-caret-position="327">
+          <caret line="185" column="59" selection-start-line="185" selection-start-column="59" selection-end-line="185" selection-end-column="59" />
         </state>
       </provider>
     </entry>

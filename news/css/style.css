@@ -1,0 +1,135 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 1.04vw;
+    color: #333333;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    width: 100vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 5vw;
+    color: #ffffff;
+
+    padding: 1vw 0 1vw 0;
+    background: linear-gradient(45deg, #5a03c1, #7c3edd);
+}
+
+@media (max-width: 480px) {
+    .header {
+        margin-top: 6.5vh;
+        margin-bottom: 5vh;
+        height: 15vh;
+    }
+}
+
+.logo__name {
+    font-size: 1.872vw;
+    font-weight: bold;
+    display: block;
+    width: max-content;
+    margin-bottom: 0.4vw;
+}
+
+@media (max-width: 480px) {
+    .logo__name {
+        font-size: 5.5vh;
+        margin-bottom: 2.5vh;
+    }
+}
+
+.logo__description {
+    font-size: 1.04vw;
+}
+
+@media (max-width: 480px) {
+    .logo__description {
+        display: inline-block;
+        font-size: 2.5vh;
+    }
+}
+
+.br-logo__description {
+    display: none;
+}
+
+@media (max-width: 480px) {
+    .br-logo__description {
+        display: block;
+    }
+}
+
+.nav {
+    list-style-type: none;
+}
+
+@media (max-width: 480px) {
+    .nav {
+        display: none;
+    }
+}
+
+.nav__item {
+    display: inline-block;
+    margin-left: 4.5vw;
+}
+
+.nav__item:nth-of-type(1) {
+    margin-left: 0;
+}
+
+.nav__item_button-orange {
+    margin-left: 4vw;
+}
+
+.nav__item_button-white {
+    margin-left: 2vw;
+}
+
+.nav__link {
+    color: #ffffff;
+    transition: color 0.15s;
+}
+
+.nav__link:hover {
+    color: #d9d9d9;
+}
+
+.nav__button_orange {
+    display: block;
+    width: 14vw;
+    height: 2.1vw;
+    line-height: 2.1vw;
+    text-align: center;
+    background-color: #f69841;
+    border-radius: 1vw;
+    color: #ffffff;
+    font-size: 1.144vw;
+    box-shadow: 0.05vw 0.05vw #da5a58, 0.1vw 0.1vw #da5a58, 0.15vw 0.15vw #da5a58, 0.2vw 0.2vw #da5a58, 0.25vw 0.25vw #da5a58, 0.3vw 0.3vw #da5a58, 0.35vw 0.35vw #da5a58;
+    position: relative;
+    top: -0.2vw;
+}
+
+.nav__button_white {
+    display: block;
+    width: 7vw;
+    height: 2.3vw;
+    line-height: 2.07vw;
+    text-align: center;
+    color: #ffffff;
+    font-size: 1.144vw;
+    border: 0.15vw solid #ffffff;
+    border-radius: 1.8vw;
+}
