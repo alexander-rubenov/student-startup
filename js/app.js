@@ -33,7 +33,6 @@ $(".main").onepage_scroll({
     });
     
     $('.menu__links-item').on('click', function() {
-      // do something
 
       $(this).closest('.menu')
         .removeClass('menu_state_open');
